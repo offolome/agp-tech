@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.body{
+    min-height: 100vh;
+    background: white;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    background: rgb(5, 5, 90);
+    padding: 10px 15px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.sidebar-header{
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-header img{
+    width: 60px;
+    border-radius: 50%;
+}
+
+.sidebar-header h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 23px;
+}
+
+.sidebar-links{
+    list-style: none;
+    margin-top: 20px;
+    height: 80%;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.sidebar-links h4{
+    color: #fff;
+    font-weight: 700;
+    margin: 10px 0;
+    white-space: nowrap;
+}
+
+.sidebar-links li span{
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+    color: #fff;
+    font-weight: 400;
+    padding: 15px 20px;
+}
+
+.sidebar-links li span:hover{
+    background: #fff;
+    color: blue;
+    border-radius: 4px;
+    font-weight: 800;
+}
+
+.lien{
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.user-account{
+    margin-top: auto;
+    padding: 12px 10px;
+    margin-left: -10px;
+}
+
+.user-account .user-profile{
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.user-detail{
+    margin-left: 23px;
+    white-space: nowrap;
+}
+
+.user-profile h5{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.user-profile span{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgb(234, 68, 68);
+}
