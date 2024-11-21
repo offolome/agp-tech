@@ -1,61 +1,45 @@
+.table .table-client {
+  border-collapse: collapse;
+  min-width: 700px;
+  width: auto;
+  text-align: center;
+  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  margin: 100px auto;
+  border: 2px solid #cccccc;
+}
 
-.table .table-client{
-    border-collapse: collapse;
-    min-width: 700px;
-    width: auto;
-    text-align: center;
-    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
-    margin: 100px auto;
-    border: 2px solid #cccccc;
-  }
-  
-  thead tr{
-    background-color: #06127c;
-    color: white;
-  }
-  
-  th, td{
-    padding: 15px 20px;
-  }
-  
-  tbody, tr, th, td{
-    border: 1px solid #ddd;
-  }
-  
-  tbody tr:nth-child(even){
-    background-color: #f3f3f3;
-  }
+thead tr {
+  background-color: #06127c;
+  color: white;
+}
 
-  .container .btn-NC{
-    background-color: #06127c;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    width: 150px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    align-items: center;
-    justify-content: center;
-    margin: 50px;
-    cursor: pointer;
-  }
-  
-  .container .btn-NC:hover{
-    background-color: #1040a0;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    width: 150px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    align-items: center;
-    justify-content: center;
-    margin: 50px;
-    cursor: pointer;
-  }
-  
+th,
+td {
+  padding: 15px 20px;
+}
+
+tbody,
+tr,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+.icon{
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+.btn-add{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 100%;
+  padding: 25px 30px;
+}

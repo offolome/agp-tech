@@ -1,14 +1,11 @@
 import React from "react";
 
-const Message = ({message}) => {
-    const {libelle, dateMess} = message;
+const Message = () => {
     return(
         <div className="container">
-            <h3>Message</h3>
-            <div>{libelle}</div>
-            <div>{dateMess}</div>
+            <h1>MESSAGE</h1>
         </div>
     );
 }
 
-export default Message;
+export default Message; 

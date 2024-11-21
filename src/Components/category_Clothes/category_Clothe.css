@@ -1,0 +1,49 @@
+.body-categorie {
+  background: white;
+}
+
+.table .table-categorie {
+  border-collapse: collapse;
+  min-width: 700px;
+  width: auto;
+  text-align: center;
+  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  margin: 100px auto;
+  border: 2px solid #cccccc;
+}
+
+thead tr {
+  background-color: #06127c;
+  color: white;
+}
+
+th,
+td {
+  padding: 15px 20px;
+}
+
+tbody,
+tr,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+.icon {
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.newCategory {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 100%;
+  padding: 15px 20px;
+}

@@ -1,16 +1,16 @@
 import React from "react";
-import ClientList from "./clientList";
 import client from "../client.css";
 import NewClient from "../Buttons/newClient";
+import ClientList from "./clientList";
 
 const Client = () => {
   return (
     <>
-      <div className="container">
-        <h1>Page clients</h1>
+      <div className="container-client">
+        <h1>CLIENTS</h1>
         <div className="btn-add">
           {/* Bouton nouveau client */}
-          <NewClient />
+          <NewClient to="addClient" />
         </div>
         <div className="table-client">
           {/* Affichage de la liste des clients dans un tableau */}
